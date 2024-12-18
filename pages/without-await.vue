@@ -7,7 +7,8 @@ useHead({
   title: computed(() => "login"),
 });
 
-await navigateTo("/dashboard");
+// Works, title gets set
+navigateTo("/dashboard");
 </script>
 <template>
   <h1>hello</h1>
