@@ -1,3 +1,8 @@
+<script setup lang="ts">
+useHead({
+  title: computed(() => "dashboard"),
+});
+</script>
 <template>
-  <NuxtPage />
+  <div>Hello world</div>
 </template>
